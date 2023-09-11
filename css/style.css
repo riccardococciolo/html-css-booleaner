@@ -33,3 +33,20 @@ body {
 .highlight {
     background-color: rgba(255, 255, 0, 0.7);
 }
+
+.cell {
+    width: calc(100% / 4);
+    text-align: left;
+}
+
+.lightblue {
+    background-color: lightskyblue;
+}
+
+.blue {
+    background-color: blue;
+}
+
+table {
+    border-collapse: collapse;
+}
