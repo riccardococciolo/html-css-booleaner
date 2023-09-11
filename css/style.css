@@ -7,7 +7,7 @@ body {
 .pattern-img {
     background-color: cornflowerblue;
     height: 60px;
-    width: 100%;
+    width: calc();
     background-image: url(../img/pattern.png);
     background-size: contain;
 }
@@ -49,4 +49,29 @@ body {
 
 table {
     border-collapse: collapse;
+}
+
+.footer-img1 {
+    color: white;
+    padding: 5px;
+    width: 200px;
+    height: 130px;
+    background-size: contain;
+    background-image: url(../img/monitor.jpg);
+}
+
+.footer-img2 {
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    width: 200px;
+    height: 130px;
+    background-size: contain;
+    background-image: url(../img/graph.jpg);
+}
+
+.text-grey {
+    color: rgb(104, 104, 104);
+    margin-bottom: 5px;
+
 }
